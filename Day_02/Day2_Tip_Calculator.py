@@ -11,5 +11,6 @@ bill_and_tip = bill + tip_1
 result_per_person = bill_and_tip / ppl
 
 result = round(result_per_person, 2)
+result = "{:.2f}".format(result_per_person)
 
 print(f'{"Each person should pay: $"}{result}')
