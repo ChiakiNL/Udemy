@@ -1,4 +1,3 @@
-
 age = input("What is your current age? ")
 
 your_age = int(age)
