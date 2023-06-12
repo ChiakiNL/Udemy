@@ -38,14 +38,20 @@ if user_choice == 0:
 elif user_choice == 1:
   print(paper)
 
-else:
+elif user_choice ==2:
   print(scissors)
+
+else:
+  print("You typed an invalid number. You lose!")
 
 ###COMPUTER_SIDE###
 
 computer_choice = random.randint(0, 2)
 
-if computer_choice == 0:
+if user_choice >= 3 or user_choice < 0:
+  print()
+
+elif computer_choice == 0:
   print(f"Computer chose: {rock}")
 
 elif computer_choice == 1:
@@ -57,7 +63,7 @@ else:
 ###RESULT###
 
 if user_choice == 0 and computer_choice == 0:
-  print("Equal. You wanna try again?") 
+  print("It's a draw. Try again!") 
 
 elif user_choice == 0 and computer_choice == 1:
   print("You lost.") 
@@ -69,7 +75,7 @@ if user_choice == 1 and computer_choice == 0:
   print("You win! Congrats :D") 
 
 elif user_choice == 1 and computer_choice == 1:
-  print("Equal. You wanna try again?") 
+  print("It's a draw. Try again!") 
 
 elif user_choice == 1 and computer_choice == 2:
   print("You lost.")
@@ -81,7 +87,7 @@ elif user_choice == 2 and computer_choice == 1:
   print("You win! Congrats :D") 
 
 elif user_choice == 2 and computer_choice == 2:
-  print("Draw. You wanna try again?") 
+  print("It's a draw. Try again!") 
 
 
 ###ANSWER_RESULT###
