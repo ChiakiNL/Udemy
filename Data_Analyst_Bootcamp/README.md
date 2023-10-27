@@ -4,3 +4,16 @@
 ### The Data Analyst Course: Complete Data Analyst Bootcamp
 
 [Click here: Description about this course](https://www.udemy.com/course/the-data-analyst-course-complete-data-analyst-bootcamp/)
+
+## Learning Outcomes
+
+- Python programming
+- Mathematical concepts relevant to Python
+- NumPy and pandas
+- Data preparation, data collection, cleaning, and preprocessing
+- Data types and their memory usage
+- Data visualization including pie, bar, line, area, histogram, scatter, regression, and combo charts
+- Text files and APIs to collect real-time data
+- Data cleaning using pandas Series and DataFrames
+- NumPy skills in a complete loan data case study
+- Capstone project
