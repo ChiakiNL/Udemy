@@ -3,7 +3,7 @@
 
 ### The Data Analyst Course: Complete Data Analyst Bootcamp
 
-[Click here: Description about this course](https://www.udemy.com/course/the-data-analyst-course-complete-data-analyst-bootcamp/)
+[Description about this course](https://www.udemy.com/course/the-data-analyst-course-complete-data-analyst-bootcamp/)
 
 ## Learning Outcomes
 
